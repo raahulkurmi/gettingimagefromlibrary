@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:elevation="44dp"
+            android:foregroundGravity="center"
+            android:orientation="vertical"
+            app:cardCornerRadius="50dp"
+            app:cardUseCompatPadding="true"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+           app:cardBackgroundColor="@color/teal_700"
+            app:layout_constraintVertical_bias="0.402">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="645dp"
+                tools:ignore="VisualLintBounds">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:autofillHints=""
+
+                    android:background="@drawable/roundedcornerview"
+                    android:drawableStart="@drawable/user"
+                    android:ems="15"
+                    android:gravity="center"
+                    android:hint="@string/enter_the_email"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textColorHint="#000000"
+                    app:layout_constraintBottom_toTopOf="@+id/pass"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.655"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.842"
+                    tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck" />
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="15"
+                    android:gravity="center"
+                    android:hint="@string/enter_your_password"
+                    android:inputType="numberPassword"
+                    android:minHeight="48dp"
+                    android:layout_margin="2dp"
+                    android:padding="8dp"
+                    android:drawableStart="@drawable/password"
+                    android:textColorHint="#000000"
+                    android:background="@drawable/roundedcornerview"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.655"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.247" />
+
+                <!--                <Button-->
+                <!--                    android:id="@+id/Signup"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:backgroundTint="@color/black"-->
+                <!--                    android:text="@string/sign_up"-->
+                <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintHorizontal_bias="0.457"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@+id/login"-->
+                <!--                    app:layout_constraintVertical_bias="0.059" />-->
+
+                <TextView
+                    android:id="@+id/forget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forget_password1"
+                    android:textColor="#263238"
+                    android:textStyle="bold"
+                    android:onClick="intent"
+                    app:layout_constraintBottom_toTopOf="@+id/login"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.715"
+                    app:layout_constraintStart_toEndOf="@+id/checkbox"
+                    app:layout_constraintTop_toBottomOf="@+id/pass"
+                    app:layout_constraintVertical_bias="0.297" />
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mybut"
+                    android:ems="4"
+                    android:text="@string/login"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.502"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pass"
+                    app:layout_constraintVertical_bias="0.166" />
+
+                <CheckBox
+                    android:id="@id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/remember_me"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/login"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.127"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.942"
+                    tools:ignore="SmallSp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/or"
+                    android:textColor="#263238"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.458"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/login"
+                    app:layout_constraintVertical_bias="0.548" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="208dp"
+                    android:text="@string/sign_up_using"
+                    android:textColor="#263238"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.453"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/login"
+                    app:layout_constraintVertical_bias="0.542" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_marginBottom="148dp"
+                    android:contentDescription="@string/todo"
+                    app:shapeAppearance="@style/roundedcorner"
+                    android:src="@drawable/faceook_logo_generated"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.102"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/gmail"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo1"
+                    app:shapeAppearance="@style/roundedcorner"
+                    android:src="@drawable/images"
+                    app:layout_constraintBottom_toBottomOf="@+id/facebook"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/insagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/instagram"
+                    app:shapeAppearance="@style/roundedcorner"
+                    app:layout_constraintBottom_toBottomOf="@+id/gmail"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.558"
+                    app:layout_constraintStart_toEndOf="@+id/gmail"
+                    app:layout_constraintTop_toBottomOf="@+id/forget"
+                    app:layout_constraintVertical_bias="0.989"
+                    android:contentDescription="@string/todo2" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

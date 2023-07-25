@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">bundleparsing</string>
+    <string name="hello">hello</string>
+    <string name="hello1">HEllo</string>
+    <string name="ramesh">Ramesh</string>
+    <string name="rahul">Rahul</string>
+</resources>

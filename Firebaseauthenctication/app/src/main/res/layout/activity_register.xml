@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Entername"
+        android:hint="Enter the name"
+        android:inputType="text"
+        android:textSize="35sp"
+        android:background="@drawable/roundedcorner"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Emailsec"
+        android:inputType="textEmailAddress"
+        android:hint="Enter the Email"
+        android:textSize="35sp"
+        android:background="@drawable/roundedcorner"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnterNO"
+        android:hint="Enter the Number"
+        android:inputType="number"
+        android:textSize="35sp"
+        android:background="@drawable/roundedcorner"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Enterpassword1"
+        android:hint="Enter the password"
+        android:textSize="35sp"
+        android:inputType="numberPassword"
+        android:background="@drawable/roundedcorner"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cnfpassword"
+        android:hint="Confirm password"
+        android:textSize="35sp"
+        android:inputType="numberPassword"
+        android:background="@drawable/roundedcorner"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:id="@+id/Register"/>
+
+</LinearLayout>

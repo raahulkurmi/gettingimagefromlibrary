@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">listview2</string>
+    <string name="select_your_id">Select your id</string>
+    <string name="search_for_the_state">Search for the state</string>
+</resources>

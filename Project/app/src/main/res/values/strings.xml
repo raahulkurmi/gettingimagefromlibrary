@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="login">Login</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="login1">Login</string>
+    <string name="or">OR</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="new_to_logistics">New to Logistics ?</string>
+    <string name="register">Register</string>
+</resources>

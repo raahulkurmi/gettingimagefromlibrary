@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="0dp">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="@string/_0"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:inputType="textAutoCorrect"
+            tools:ignore="VisualLintTextFieldSize"
+            android:autofillHints="" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:columnCount="4"
+            android:rowCount="5"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="331dp">
+
+            <Button
+
+                android:id="@+id/btncl"
+                android:layout_margin="8dp"
+                android:onClick="btnclr"
+                android:padding="4dp"
+                android:text="AC"
+                android:textColor="#FF8A80"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="Null"
+                android:textColor="#E86960"
+                android:textSize="20dp"
+
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnm"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="%"
+                android:textColor="#FF8A80"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btndiv"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="/"
+                android:textColor="#FF8A80"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:id="@+id/btn9"
+
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="9"
+                android:onClick="btn9"
+                android:textColor="#F8F4F4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:id="@+id/btn8"
+                android:text="8"
+                android:onClick="btn8"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="7"
+                android:id="@+id/btn7"
+                android:onClick="btn7"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:id="@+id/btnx"
+                android:padding="4dp"
+                android:text="X"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_margin="8dp"
+                android:onClick="btn6"
+                android:padding="4dp"
+                android:text="6"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="5"
+                android:id="@+id/btn5"
+                android:onClick="btn5"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:id="@+id/btn4"
+                android:padding="4dp"
+                android:text="4"
+                android:onClick="btn4"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="-"
+                android:id="@+id/btnmin"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="3"
+                android:id="@+id/btn3"
+                android:onClick="btn3"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="2"
+                android:id="@+id/btn2"
+                android:onClick="btn2"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+
+                android:padding="4dp"
+                android:text="1"
+                android:id="@+id/btn1"
+                android:onClick="btn1"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="+"
+
+                android:id="@+id/btnadd"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+
+                android:padding="4dp"
+                android:text="Null"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="0"
+
+                android:onClick="btn0"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/btn0"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+
+                android:padding="4dp"
+                android:text="@string/dot"
+                android:onClick="btn"
+                android:textColor="#F8F4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/btndot"
+
+
+                />
+
+            <Button
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:text="="
+
+                android:id="@+id/btnequal"
+                android:textColor="#F8F4F4"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </GridLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

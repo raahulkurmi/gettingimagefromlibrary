@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        tools:ignore="UselessParent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/notice"
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            android:onClick="onclick"
+            app:cardCornerRadius="50dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="VisualLintBounds,TextSizeCheck">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_red"
+                    android:contentDescription="@string/todo"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_notice" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#BFAFAF" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="5dp"
+                    android:text="@string/add_notice"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:id="@+id/gallery"
+            android:elevation="10dp"
+            app:cardCornerRadius="50dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="VisualLintBounds">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_green"
+                    android:src="@drawable/ic_gallery"
+                    android:padding="15dp"
+                    android:contentDescription="@string/todo" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#BFAFAF" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gallery"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:padding="5dp"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        tools:ignore="UselessParent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:id="@+id/faculty"
+            android:elevation="10dp"
+            app:cardCornerRadius="50dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="VisualLintBounds">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_pink"
+                    android:src="@drawable/ic_group"
+                    android:padding="15dp"
+                    android:contentDescription="@string/todo" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#BFAFAF" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faculty"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:padding="5dp"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:id="@+id/uploadebook"
+            android:elevation="10dp"
+            app:cardCornerRadius="50dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,VisualLintBounds">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/yellow_circle"
+                    android:src="@drawable/ic_upload"
+                    android:padding="15dp"
+                    android:contentDescription="@string/todo" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#BFAFAF" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/upload_ebook"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:padding="5dp"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        tools:ignore="UselessParent,VisualLintBounds">
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:id="@+id/delnotice"
+            android:elevation="10dp"
+            app:cardCornerRadius="50dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,VisualLintBounds">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlepurple"
+                    android:src="@drawable/ic_delete_delete"
+                    android:padding="15dp"
+                    android:contentDescription="@string/todo" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#BFAFAF" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delete_notice"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:padding="5dp"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

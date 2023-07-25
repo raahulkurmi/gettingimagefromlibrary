@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">cloudmessanging4</string>
+    <string name="sign_up">Sign up</string>
+    <string name="first_name">First name</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="privacy_and_policy">Privacy and policy</string>
+    <string name="and">and</string>
+    <string name="terms_condition">terms condition</string>
+    <string name="by_singing_up_you_re_agree_to_our">By singing up, you\'re agree to our</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="last_name">Last Name</string>
+    <string name="signup">SIGNUP</string>
+    <string name="joined_us_before">Joined us before ?</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">LOGIN</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Enteremail"
+    android:hint="Enter the email"
+    android:textSize="35sp"
+    android:inputType="textEmailAddress"
+    android:background="@drawable/roundedcorner"/>
+
+    <EditText
+        android:id="@+id/Enterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedcorner"
+        android:hint="Enter the password"
+        android:minHeight="48dp"
+        android:textSize="35sp"
+        android:inputType="numberPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/Signin"
+        android:textSize="25sp"
+        android:text="Sign in"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up"
+        android:text="Sign up"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgetpassword"
+        android:text="forget password"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="gone"
+    android:id="@+id/progress"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387804715128",
+    "project_id": "cloudmessangingfirebase",
+    "storage_bucket": "cloudmessangingfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387804715128:android:c21e96a40c1638d4f4f58d",
+        "android_client_info": {
+          "package_name": "com.example.cloudmessangingfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387804715128-a62nuri3dssjvlm9jra4mp1phdbqq684.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrqiwtDOVRbjKQuQpunnQIoE0IOqB4d48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387804715128-a62nuri3dssjvlm9jra4mp1phdbqq684.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:id="@+id/animation2"
+        android:layout_height="250dp"
+
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/signup" />
+    <TextView
+        android:id="@+id/Signuplogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:ems="15"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="15dp"
+        android:hint="First name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/Lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="15dp"
+        android:ems="15"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/registeremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:drawableStart="@drawable/email1"
+        android:drawablePadding="15dp"
+        android:ems="15"
+        android:layout_marginTop="5dp"
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/mobilenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:drawableLeft="@drawable/mobile"
+        android:drawablePadding="15dp"
+        android:ems="15"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:hint="Enter mobile number"
+        android:inputType="number"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:drawablePadding="15dp"
+        android:ems="15"
+        android:layout_marginTop="5dp"
+        android:hint="@string/password"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:minHeight="48dp"
+        android:drawableLeft="@drawable/password"
+        />
+
+    <EditText
+        android:id="@+id/cnfpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        android:ems="15"
+        android:hint="Confirm password"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:minHeight="48dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By singing up, you're agree to our "
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="terms condition"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="and"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy and policy"
+            android:textColor="#2196F3"
+            android:layout_marginLeft="3dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@color/white"
+        android:text="SIGNUP"
+        android:textAllCaps="true"
+        android:id="@+id/Signupbutton"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:text="Joined us before ?"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="3dp"
+            android:text="LOGIN"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

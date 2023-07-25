@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Apitesting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Dicerollapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Foodorderingapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MarvelUniverse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Newspaper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Newspaperappapi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Quizapp3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WeatherApplicatio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/internshala" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/notificationkotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/retrofitapi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/runtimepermission2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shipperApp" vcs="Git" />
+  </component>
+</project>

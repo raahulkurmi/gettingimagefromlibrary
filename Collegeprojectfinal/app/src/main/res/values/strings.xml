@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Collegeprojectfinal</string>
+    <string name="Headtag">HAVE A GOOD DAY</string>
+    <string name="welcome_back_to_your_app">Welcome back to your app</string>
+    <string name="all_on_one_you_need">All on-one you need</string>
+    <string name="login">LOGIN</string>
+    <string name="imagestring">TODO</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_up_with_goole">Sign up with goole</string>
+    <string name="sign_up_using_facebook">Sign up using facebook</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_passwordsignup">Enter your password</string>
+    <string name="enter_your_emailsignup">Enter your email</string>
+    <string name="enter_your_passwordsignup1">Enter your password</string>
+</resources>

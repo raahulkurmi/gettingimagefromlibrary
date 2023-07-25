@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:layout_marginLeft="60dp"
+      android:layout_marginRight="60dp"
+      android:inputType="textEmailAddress"
+
+      android:id="@+id/Emailfield"
+      android:background="@drawable/roundedcorner"
+      android:drawableLeft="@android:drawable/ic_dialog_email"
+      android:drawablePadding="30sp"
+      android:gravity="center"
+      android:hint="Enter the email"
+      android:padding="10dp"
+
+      android:textSize="20sp" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:layout_marginLeft="60dp"
+      android:layout_marginRight="60dp"
+      android:id="@+id/passwordfield"
+      android:inputType="numberPassword"
+      android:background="@drawable/roundedcorner"
+      android:drawableLeft="@drawable/password"
+      android:drawablePadding="20sp"
+      android:gravity="center"
+      android:hint="Enter the Password"
+      android:padding="10dp"
+      android:textSize="20sp" />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:textSize="22sp"
+      android:layout_marginTop="80dp"
+      android:layout_marginLeft="150dp"
+      android:layout_marginRight="80dp"
+      android:text="Sign in"
+
+      android:id="@+id/signin"
+    />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:text="Forget password"
+      android:layout_marginTop="80dp"
+      android:layout_marginLeft="150dp"
+      android:layout_marginRight="80dp"
+
+    android:id="@+id/forget"
+    />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Sign up"
+      android:layout_marginTop="80dp"
+      android:layout_marginLeft="150dp"
+      android:layout_marginRight="80dp"
+      android:id="@+id/signup"
+      />
+
+
+
+
+</LinearLayout>

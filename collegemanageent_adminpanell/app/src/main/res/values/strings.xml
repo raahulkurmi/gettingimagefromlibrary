@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">collegemanageent_adminpanell</string>
+    <string name="todo">TODO</string>
+    <string name="uploadnotification">Uploadnotification</string>
+    <string name="notifcation">Notifcation</string>
+    <string name="gallery">Gallery</string>
+    <string name="faculty">Faculty</string>
+    <string name="upload">Upload</string>
+    <string name="upload_ebook">Upload Ebook</string>
+    <string name="delete_notice">Delete notice</string>
+    <string name="add_notice">Add notice</string>
+</resources>

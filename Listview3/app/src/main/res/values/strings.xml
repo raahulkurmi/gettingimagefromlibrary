@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Listview3</string>
+    <string name="select_your_id">Select your id</string>
+    <string name="select_your_state">Select Your state</string>
+</resources>

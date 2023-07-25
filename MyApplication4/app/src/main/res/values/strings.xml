@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world</string>
+    <string name="button">Btntranslate</string>
+    <string name="apha">Apha</string>
+    <string name="rotate">Scale</string>
+    <string name="scale">Rotate</string>
+</resources>

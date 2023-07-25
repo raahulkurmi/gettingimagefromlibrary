@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">listview</string>
+    <string name="select_and_id">Select and id</string>
+    <string name="search_here">search here</string>
+</resources>

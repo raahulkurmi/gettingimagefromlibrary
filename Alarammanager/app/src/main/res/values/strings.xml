@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alarammanager</string>
+    <string name="enter_the_time_secs">Enter the time(secs)</string>
+    <string name="setalaram">setalaram</string>
+</resources>

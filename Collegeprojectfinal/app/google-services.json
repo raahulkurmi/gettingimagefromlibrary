@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "697048326614",
+    "project_id": "mycollegepxroject",
+    "storage_bucket": "mycollegepxroject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697048326614:android:46633cff677573d9f34477",
+        "android_client_info": {
+          "package_name": "com.example.collegemanageent_adminpanell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697048326614-ah4bs8hbjmfb592sk3b4psclb6o11l3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ41PfqDx_CiDJEgCLLwbmTgCSr73muNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697048326614-ah4bs8hbjmfb592sk3b4psclb6o11l3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697048326614:android:01db5a4d43b914b4f34477",
+        "android_client_info": {
+          "package_name": "com.example.collegeprojectfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697048326614-ah4bs8hbjmfb592sk3b4psclb6o11l3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ41PfqDx_CiDJEgCLLwbmTgCSr73muNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697048326614-ah4bs8hbjmfb592sk3b4psclb6o11l3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

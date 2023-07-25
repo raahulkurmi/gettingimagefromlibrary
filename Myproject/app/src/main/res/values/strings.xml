@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Myproject</string>
+    <string name="enter_the_email">Enter the email</string>
+    <string name="enter_the_password">Enter the Password</string>
+    <string name="sign_in">Sign IN</string>
+    <string name="don_t_have_a_account">Don\'t Have a account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">password</string>
+    <string name="enter_the_email1">Enter the email</string>
+    <string name="password1">password</string>
+    <string name="sign_up1">Sign up</string>
+    <string name="sigin_in">SIGIN IN</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "176501668806",
+    "project_id": "fir-4-e61e1",
+    "storage_bucket": "fir-4-e61e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176501668806:android:63346f138fad07c9e850c7",
+        "android_client_info": {
+          "package_name": "com.example.cloudmessanging4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176501668806-66dpnk9vhi6qs3pagbt2n23hui4tisv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfMc75XcI-z9RSizPSTBu-zFuFKOeO7Ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176501668806-66dpnk9vhi6qs3pagbt2n23hui4tisv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

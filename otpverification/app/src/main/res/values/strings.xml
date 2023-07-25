@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">otpverification</string>
+    <string name="otp_verifaction">otp verifaction</string>
+    <string name="enter_the_otp_you_recieved">Enter the otp you recieved</string>
+    <string name="verify">Verify</string>
+    <string name="resend">Resend</string>
+    <string name="didn_t_recive_otp">Didn\'t recive OTP ?</string>
+    <string name="we_will_sent_you_otp_on_this_number">We will sent you otp on this number</string>
+    <string name="otp_verifaction1">otp verifaction</string>
+    <string name="_91">+91-</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="enter_the_mobile_number">Enter the Mobile Number</string>
+</resources>

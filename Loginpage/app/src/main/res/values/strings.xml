@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Loginpage</string>
+    <string name="enter_the_email">Enter the email</string>
+    <string name="enter_your_password">Enter your password</string>
+
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_up_using">Sign up using</string>
+    <string name="or">OR</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="forget_password1">Forget password ?</string>
+</resources>

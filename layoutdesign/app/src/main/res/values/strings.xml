@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMIAPP</string>
+    <string name="wt">Enter your weight</string>
+    <string name="Feet">Enter your heightin feet</string>
+    <string name="Result">Result</string>
+
+    <string name="Inches">Enter your height in inches</string>
+    <string name="calculate_bmi">Calculate bmi</string>
+    <string name="overweight">overweight</string>
+    <string name="bmi">BMI</string>
+    <string name="welocome_to_bmi_app">Welocome to BMI app</string>
+</resources>

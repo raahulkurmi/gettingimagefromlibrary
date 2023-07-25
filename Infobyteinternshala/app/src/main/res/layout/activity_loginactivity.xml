@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginactivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_icon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_background" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="100dp"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:textColor="@color/splashscreentextcolor"
+                android:text="Welcome \nback"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:textColor="@color/splashscreentextcolor"
+                android:hint="Enter your email"
+                android:textColorHint="@color/splashscreentextcolor"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/email"
+                android:padding="8dp"
+                android:drawablePadding="16dp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/enteremail"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textWebPassword"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:ems="10"
+                android:textColor="@color/splashscreentextcolor"
+                android:hint="Enter your password"
+                android:textColorHint="@color/splashscreentextcolor"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/password"
+                android:padding="8dp"
+                android:drawablePadding="16dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/enterpassword"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagebutton"
+                android:layout_gravity="end"
+                android:src="@drawable/btn_login"
+                android:layout_marginTop="16dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="16dp"
+                android:text="Sign in with Gmail"
+                android:layout_marginStart="32dp"
+                style="@android:style/Widget.Button"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/buttonbackground2"
+                android:drawableStart="@drawable/google"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:textColor="@color/splashscreentextcolor"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/signinusinggoogle"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Sign in with Phone"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                style="@android:style/Widget.Button"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/buttonbackground2"
+                android:drawableStart="@drawable/facebook"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:textColor="@color/splashscreentextcolor"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/signinusingfacebook"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you a new user ? Register"
+                android:textAlignment="center"
+                android:layout_marginTop="32dp"
+                android:textSize="16sp"
+                android:id="@+id/register"
+                android:textColor="@color/splashscreentextcolor"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/splashscreentextcolor"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

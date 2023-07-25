@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56184451147",
+    "project_id": "infobyteinternshala",
+    "storage_bucket": "infobyteinternshala.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56184451147:android:5c3a5681c9f080a728ddce",
+        "android_client_info": {
+          "package_name": "com.example.infobyteinternshala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56184451147-qsu6m1134ob6pqu1keds55q21gblcqga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn6-rmvb9g1fmYMVtcUqs6se9LbUzH_FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56184451147-qsu6m1134ob6pqu1keds55q21gblcqga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "152041202094",
+    "project_id": "cloud-6031b",
+    "storage_bucket": "cloud-6031b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152041202094:android:0f87838b3f61a38d68e83f",
+        "android_client_info": {
+          "package_name": "com.example.cloudmessanging2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152041202094-jcoh74m2fvhrd3beg6vqpn5kmmff5tvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXYgsfLDEA383zB4VHeaMA4Ukcxv9qChY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152041202094-jcoh74m2fvhrd3beg6vqpn5kmmff5tvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
